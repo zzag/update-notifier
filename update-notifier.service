@@ -1,6 +1,0 @@
-[Unit]
-Description=Refresh PackageKit cache
-
-[Service]
-Type=oneshot
-ExecStart=/usr/bin/pkcon refresh -p

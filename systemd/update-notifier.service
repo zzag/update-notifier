@@ -1,0 +1,6 @@
+[Unit]
+Description=Refresh PackageKit cache
+
+[Service]
+Type=oneshot
+ExecStart=/usr/lib/update-notifier/refresh-packagekit-cache

@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Upgrade
+Target = *
+
+[Action]
+Description = Refresh PackageKit cache
+Depends = packagekit
+When = PostTransaction
+Exec = /usr/lib/update-notifier/refresh-packagekit-cache
