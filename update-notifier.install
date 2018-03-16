@@ -1,0 +1,4 @@
+post_install() {
+    echo "Activate update-notifier with"
+    echo "    systemctl enable update-notifier.timer"
+}
