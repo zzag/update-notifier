@@ -1,6 +1,6 @@
 # Maintainer: Vlad Zagorodniy <vladzzag@gmail.com>
 pkgname=update-notifier
-pkgver=1.1.r0.de695bf
+pkgver=1.0.r0.2992e07
 pkgrel=1
 pkgdesc="PackageKit update notifier"
 arch=('x86_64')
